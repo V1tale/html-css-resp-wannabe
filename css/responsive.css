@@ -1,0 +1,24 @@
+/* TABLET */
+@media screen and (max-width:768px) {
+
+    .container {
+        width:100vw;
+    }
+}
+/* MOBILE */
+@media screen and (max-width:480px) {
+
+    .row {
+        flex-direction: column;
+        align-items: center;  
+    }
+    .steps .col, .lessons .col {
+        width:100%;
+    }
+    .text {
+        margin-bottom: 2rem;;
+    }
+    .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+}
