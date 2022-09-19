@@ -21,6 +21,13 @@
     .why-us .col-left, .why-us .col-right {
         width: 100%;
     }
+    .why-us {
+        background-color: black;
+        padding-top:50px;
+    }
+    .steps, .why-us {
+        margin-bottom: 0;
+    }
 }
 /* BONUS */
 @media screen and (min-width:768px) {
@@ -30,5 +37,6 @@
     body {
         max-width: 100vw;
     }
+
 }
 
